@@ -1,0 +1,32 @@
+{
+  "name": "antd-mobile-test",
+  "author": "25500",
+  "version": "1.0.0",
+  "description": "An awesome project",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "nowa server -p 3000 -e index.js",
+    "build": "nowa build -e index.js"
+  },
+  "homepage": "",
+  "license": "MIT",
+  "dependencies": {
+    "antd-mobile": "^2.1.10",
+    "natty-storage": "^1.1.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-keeper": "^2.0.6",
+    "react-native": "^0.55.4",
+    "react-router": "^4.1.1",
+    "refast": "^1.1.0",
+    "svg-sprite-loader": "^0.3.0",
+    "unity-api": "^2.0.1"
+  },
+  "devDependencies": {
+    "babel-plugin-import": "~1.0.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
